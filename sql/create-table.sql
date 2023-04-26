@@ -16,5 +16,6 @@ create table chanson (
     
 );
 
-alter table chanson ADD constaint foreign key id_chanteur
+alter table chanson ADD constaint fk_chanson_chanteur
+foreign key (id_chanteur)
     references chanteur(id);
