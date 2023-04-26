@@ -2,7 +2,7 @@
 
 I like Git
 
-#local commands
+# local commands
 
 - git init
 - git status
